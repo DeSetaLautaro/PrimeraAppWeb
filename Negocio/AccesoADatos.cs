@@ -12,9 +12,8 @@ namespace Negocio
         private SqlCommand Comando;
         private SqlConnection Conexion;
         public SqlDataReader Lector;
-        string hola;
-
         
+
         public SqlDataReader Lector_
         {
             get { return Lector; }
